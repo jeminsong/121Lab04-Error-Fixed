@@ -22,7 +22,6 @@ graphics::Color Bubble::GetColor() const {
 int Bubble::GetX() const {
   return x_;
 }
-
 int Bubble::GetY() const {
   return y_;
 }
