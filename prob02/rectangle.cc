@@ -15,7 +15,7 @@ unsigned int Rectangle::Area() const {
 }
 
 unsigned int Rectangle::Perimeter() const {
-  return length_ + width_ + length_ + width_;
+  return 2 (length_ + width_);
 }
 
 Rectangle LargestRectangleByArea(const Rectangle &r1, const Rectangle &r2) {
